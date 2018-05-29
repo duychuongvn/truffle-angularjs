@@ -1,5 +1,5 @@
-var PhisicalGold = artifacts.require("./PhisicalGold.sol");
+var PhysicalGold = artifacts.require("./PhysicalGold.sol");
 
 module.exports = function(deployer) {
-  deployer.deploy(PhisicalGold);
+  deployer.deploy(PhysicalGold);
 };

@@ -5,6 +5,7 @@ import { fromPromise } from 'rxjs/observable/fromPromise';
 
 import { environment } from '../environments/environment';
 
+declare var require: any;
 const Web3 = require('web3');
 
 declare var window: any;
